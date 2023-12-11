@@ -3,7 +3,7 @@ namespace App\Repository;
 
 use App\Models\User;
 
-class CustomerRepository extends BaseRepository
+class UserRepository extends BaseRepository
 {
     public function model()
     {

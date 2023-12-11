@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::namespace('Admin')->name('admin.')->prefix('admin')->group(function () {
+    require "admin.php";
+});
+
+Route::namespace('Site')->name('site.')->group(function () {
+    require "site.php";
+});
