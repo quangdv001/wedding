@@ -84,7 +84,7 @@
     <section class="section_timeline" id="weddingInfo">
         <div class="section_title text-center">
             <div class="sub_title">
-                QUANG & MAI WEDDING INFORMATIONS
+                QUANG & MAI WEDDING INFORMATION
             </div>
             <div class="title">
                 WELCOME TO OUR WEDDING
@@ -113,7 +113,7 @@
         <div class="section_head">
             <div class="section_title text-center">
                 <div class="sub_title">
-                    QUANG & MAI WEDDING INFORMATIONS
+                    QUANG & MAI WEDDING INFORMATION
                 </div>
                 <div class="title">
                     OUR WEDDING TIMELINE
@@ -132,7 +132,7 @@
     <section class="section_map">
         <div class="section_title text-center">
             <div class="sub_title">
-                QUANG & MAI WEDDING INFORMATIONS
+                QUANG & MAI WEDDING INFORMATION
             </div>
             <div class="title">
                 OUR WEDDING LOCATION
@@ -271,9 +271,9 @@
             </div>
             <div class="section_content d-flex flex-row">
                 <div class="content">
-                    <p>Chúng mình may mắn vì đã tìm thấy nhau thấu hiểu nhau, yêu thương nhau và quyết định cùng nhau đi đến hết cuộc đời này!</p>
+                    <p>Chúng mình may mắn vì đã tìm thấy nhau, thấu hiểu nhau, yêu thương nhau và quyết định cùng nhau đi đến hết cuộc đời này!</p>
                     <p>Và chúng mình cũng rất may mắn khi có Bạn
-                        đồng hành cùng chúng mình, khiến cuộc sống của chúng mình có thêm rất nhiều màu sắc, cho chúng mình sự quan tâm và yên mến
+                        đồng hành cùng chúng mình, khiến cuộc sống của chúng mình có thêm rất nhiều màu sắc, cho chúng mình sự quan tâm và yên mến.
                     </p>
                     <p>Vì vậy, sẽ thật tuyệt nếu như có sự xuất hiện của Bạn tại đám cưới của chúng mình
                         Vào Chủ nhật, ngày 31/12/2023 tới đây!</p>

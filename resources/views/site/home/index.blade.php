@@ -10,9 +10,9 @@
     <meta property="og:title" content="Quang Mai Wedding" />
     <meta property="og:description" content="Quang Mai Wedding" />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="/assets/images/banner.jpg" />
+    <meta property="og:image" content="https://mybizfly.mediacdn.vn/eventsolution/dev/eventsolution/upload/1702626524banner_KUWXAKI7Qd.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="/assets/images/banner.jpg" />
+    <meta name="twitter:image" content="https://mybizfly.mediacdn.vn/eventsolution/dev/eventsolution/upload/1702626524banner_KUWXAKI7Qd.jpg" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- css-->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@
             </svg>
         </div>
         <div class="banner">
-            <img src="/assets/images/banner.jpg" alt="" class="img-fluid">
+            <img src="https://mybizfly.mediacdn.vn/eventsolution/dev/eventsolution/upload/1702626524banner_KUWXAKI7Qd.jpg" alt="" class="img-fluid">
         </div>
         <div class="dear position-absolute">
             @if (auth()->check())
@@ -83,7 +83,7 @@
     <section class="section_timeline" id="weddingInfo">
         <div class="section_title text-center">
             <div class="sub_title">
-                QUANG & MAI WEDDING INFORMATIONS
+                QUANG & MAI WEDDING INFORMATION
             </div>
             <div class="title">
                 WELCOME TO OUR WEDDING
@@ -146,7 +146,7 @@
         <div class="section_head">
             <div class="section_title text-center">
                 <div class="sub_title">
-                    QUANG & MAI WEDDING INFORMATIONS
+                    QUANG & MAI WEDDING INFORMATION
                 </div>
                 <div class="title">
                     OUR WEDDING TIMELINE
@@ -165,7 +165,7 @@
     <section class="section_map">
         <div class="section_title text-center">
             <div class="sub_title">
-                QUANG & MAI WEDDING INFORMATIONS
+                QUANG & MAI WEDDING INFORMATION
             </div>
             <div class="title">
                 OUR WEDDING LOCATION
@@ -304,9 +304,9 @@
             </div>
             <div class="section_content d-flex flex-row">
                 <div class="content">
-                    <p>Chúng mình may mắn vì đã tìm thấy nhau thấu hiểu nhau, yêu thương nhau và quyết định cùng nhau đi đến hết cuộc đời này!</p>
+                    <p>Chúng mình may mắn vì đã tìm thấy nhau, thấu hiểu nhau, yêu thương nhau và quyết định cùng nhau đi đến hết cuộc đời này!</p>
                     <p>Và chúng mình cũng rất may mắn khi có Bạn
-                        đồng hành cùng chúng mình, khiến cuộc sống của chúng mình có thêm rất nhiều màu sắc, cho chúng mình sự quan tâm và yên mến
+                        đồng hành cùng chúng mình, khiến cuộc sống của chúng mình có thêm rất nhiều màu sắc, cho chúng mình sự quan tâm và yên mến.
                         Vì vậy, sẽ thật tuyệt nếu như có sự xuất hiện của Bạn tại đám cưới của chúng mình
                         Vào Chủ nhật, ngày 31/12/2023 tới đây!</p>
                 </div>
