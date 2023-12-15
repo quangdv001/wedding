@@ -14,7 +14,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="{{ route('admin.user.index') }}">Danh sách khách mời</a>
+                            <a class="nav-link" href="{{ route('admin.user.index') }}">Khách mời</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin.message.index') }}">Lời chúc</a>
                           </li>
                           
                         </ul>

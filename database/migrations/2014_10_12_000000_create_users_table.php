@@ -19,6 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('group');
             $table->tinyInteger('from');
+            $table->tinyInteger('is_join')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });

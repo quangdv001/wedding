@@ -8,5 +8,9 @@ Route::get('logout', 'AdminAuthController@logout')->name('auth.logout');
 
 Route::middleware('auth:admin')->group(function() {
     Route::get('/', 'AdminHomeController@index')->name('home.index');
+
     Route::get('/user', 'AdminUserController@index')->name('user.index');
+    Route::post('/user/import', 'AdminUserController@import')->name('user.import');
+
+    Route::get('/message', 'AdminMessageController@index')->name('message.index');
 });
