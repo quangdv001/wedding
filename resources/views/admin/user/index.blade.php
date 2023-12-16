@@ -36,7 +36,9 @@
                             @foreach ($data as $v)
                             <tr class="">
                                 <td scope="row">{{ $v->id }}</td>
-                                <td>{{ $v->name }}</td>
+                                <td>
+                                    <a href="#" class="editable" id="user_{{ $v->id }}" data-type="text" data-pk="{{ $v->id }}" data-url="/admin/user/editName" data-title="Nhập tên">{{ $v->name }}</a>
+                                </td>
                                 <td>{{ $v->code }}</td>
                                 <td>{{ $v->group }}</td>
                                 <td>{{ $v->from == 1 ? 'Nhà trai' : 'Nhà gái' }}</td>
@@ -60,10 +62,12 @@
 @endsection
 @push('custom_css')
 <link rel="stylesheet" href="/lib/datatable/dataTables.bootstrap5.min.css">
+<link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/css/jquery-editable.css" rel="stylesheet">
 @endpush
 @push('custom_js')
 <script src="/lib/datatable/jquery.dataTables.min.js"></script>
 <script src="/lib/datatable/dataTables.bootstrap5.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/js/jquery-editable-poshytip.min.js"></script>
 <script>
     	
     $('#inputGroupFile01').on('change', function () {
@@ -131,5 +135,10 @@
             tempInput.remove();
         }
     }
+
+    $.fn.editable.defaults.mode = 'inline';
+    $(document).ready(function() {
+    $('.editable').editable();
+});
 </script>
 @endpush

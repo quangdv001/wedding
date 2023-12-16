@@ -29,4 +29,16 @@ class AdminUserController extends Controller
         $res['success'] = 1;
         return response()->json($res);
     }
+
+    public function editName(Request $request)
+    {
+        $id = $request->input('pk', 0);
+        $params['name'] = $request->input('value', '');
+
+        $resU = $this->user->update(['id' => $id], $params);
+        if ($resU) {
+            return response()->json([], 200);
+        }
+        return response()->json([], 500);
+    }
 }
