@@ -11,6 +11,7 @@ Route::middleware('auth:admin')->group(function() {
 
     Route::get('/user', 'AdminUserController@index')->name('user.index');
     Route::post('/user/import', 'AdminUserController@import')->name('user.import');
+    Route::post('/user/editName', 'AdminUserController@editName')->name('user.editName');
 
     Route::get('/message', 'AdminMessageController@index')->name('message.index');
 });
