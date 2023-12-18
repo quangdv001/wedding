@@ -104,7 +104,7 @@
         }
     });
 
-    new DataTable('#example');
+    let dataTable = new DataTable('#example');
 
     function copyLink(id) {
         var textToCopy = $(`#${id}`).val();
@@ -138,7 +138,16 @@
 
     $.fn.editable.defaults.mode = 'inline';
     $(document).ready(function() {
-    $('.editable').editable();
-});
+        $('.editable').editable();
+    });
+
+    dataTable.on('draw', function() {
+        // Your custom logic here
+        console.log('Table redrawn, filtering complete.');
+
+        // Call your custom function or execute code after filtering
+        $.fn.editable.defaults.mode = 'inline';
+        $('.editable').editable();
+    });
 </script>
 @endpush
