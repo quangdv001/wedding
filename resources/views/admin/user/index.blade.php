@@ -5,11 +5,23 @@
             <div class="col-12">
                 <div class="d-flex justify-content-between">
                     <h3>Danh sách khách mời</h3>
-                    <div>
-                        <div class="input-group mb-3">
+                    <div class="d-flex">
+                        <div class="input-group mb-3 me-3">
                             <label class="input-group-text" for="inputGroupFile01">Import</label>
                             <input type="file" class="form-control d-none" id="inputGroupFile01">
                         </div>
+                        <div class="input-group mb-3">
+
+                            <a
+                                name=""
+                                id=""
+                                class="btn btn-primary"
+                                href="{{ route('admin.user.export') }}"
+                                role="button"
+                                >Export</a
+                            >
+                        </div>
+                        
                     </div>
                 </div>
                 <div
