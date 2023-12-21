@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Exports\UsersExport;
 use App\Http\Controllers\Controller;
 use App\Imports\UsersImport;
 use App\Repository\UserRepository;
@@ -40,5 +41,10 @@ class AdminUserController extends Controller
             return response()->json([], 200);
         }
         return response()->json([], 500);
+    }
+
+    public function export() 
+    {
+        return Excel::download(new UsersExport, 'users.xlsx');
     }
 }

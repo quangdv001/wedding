@@ -10,6 +10,7 @@ Route::middleware('auth:admin')->group(function() {
     Route::get('/', 'AdminHomeController@index')->name('home.index');
 
     Route::get('/user', 'AdminUserController@index')->name('user.index');
+    Route::get('/user/export', 'AdminUserController@export')->name('user.export');
     Route::post('/user/import', 'AdminUserController@import')->name('user.import');
     Route::post('/user/editName', 'AdminUserController@editName')->name('user.editName');
 
